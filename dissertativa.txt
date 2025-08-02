@@ -1,0 +1,21 @@
+Este algoritmo realiza a multiplicação de um número qualquer (n) de 1 a 10 pela tabuada do 9, utilizando um truque matemático.
+
+Entrada:
+O usuário deve informar um número inteiro entre 1 e 10.
+
+Processamento:
+1. Subtrai-se 1 do número informado: (n - 1)
+2. Subtrai-se o número informado de 10: (10 - n)
+3. Multiplica-se o primeiro resultado por 10: (n - 1) * 10
+4. Soma-se com o segundo resultado: (n - 1) * 10 + (10 - n)
+5. Esse valor corresponde a 9 x n.
+
+Saída:
+O algoritmo exibe o resultado da multiplicação de 9 por n utilizando esse método de cálculo.
+
+Exemplo:
+Se n = 7:
+- (n - 1) = 6
+- (10 - n) = 3
+- Resultado: 6 * 10 + 3 = 63
+Portanto, 9 x 7 = 63
